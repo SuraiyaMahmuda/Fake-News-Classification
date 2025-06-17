@@ -48,9 +48,9 @@ Several models were trained for comparison:
 ## Results  
 | Model                     | Accuracy |
 |--------------------------|----------|
-| Logistic Regression      | **0.95** |
-| Multinomial Naive Bayes  | 0.93     |
-| Bernoulli Naive Bayes    | 0.91     |
+| Logistic Regression      | **95%** |
+| Multinomial Naive Bayes  | 93%     |
+| Bernoulli Naive Bayes    | %91     |
 - **Logistic Regression** showed the best performance with an accuracy of **~95%**.  
 - **Multinomial Naive Bayes** achieved ~93% accuracy.  
 - **Bernoulli Naive Bayes** achieved ~91% accuracy.  
