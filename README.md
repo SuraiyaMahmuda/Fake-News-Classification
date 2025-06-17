@@ -1,7 +1,7 @@
 # Fake-News-Classification
 
 ## Introduction  
-This project addresses the growing issue of fake news by leveraging Natural Language Processing (NLP) techniques and machine learning classifiers. Fake news has the potential to mislead people and cause serious harm. Identifying such misinformation automatically can help reduce its impact on society.
+This project addresses the growing issue of fake news by leveraging Natural Language Processing (NLP) techniques and various machine learning classifiers such as **Logistic Regression**, **Multinomial Naive Bayes**, and **Bernoulli Naive Bayes**. Fake news has the potential to mislead people and cause serious harm. Identifying such misinformation automatically can help reduce its impact on society.
 
 --- 
 
@@ -11,7 +11,8 @@ To build a classification model that can accurately differentiate between real a
 ---
 
 ## Dataset  
-- **Name:** `WELFake_Dataset.csv`  
+- **Name:** `WELFake_Dataset.csv`  (Collected from Kaggle)
+- **Dataset Link**: https://www.kaggle.com/datasets/studymart/welfake-dataset-for-fake-news
 - **Source:** Includes labeled news articles classified as *Fake* or *True*  
 - **Features Used:** Mainly the `text` content of the articles
 
@@ -50,7 +51,7 @@ Several models were trained for comparison:
 |--------------------------|----------|
 | Logistic Regression      | **95%** |
 | Multinomial Naive Bayes  | 93%     |
-| Bernoulli Naive Bayes    | %91     |
+| Bernoulli Naive Bayes    | 91%     |
 - **Logistic Regression** showed the best performance with an accuracy of **~95%**.  
 - **Multinomial Naive Bayes** achieved ~93% accuracy.  
 - **Bernoulli Naive Bayes** achieved ~91% accuracy.  
