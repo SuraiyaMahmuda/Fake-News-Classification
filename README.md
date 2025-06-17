@@ -46,10 +46,12 @@ Several models were trained for comparison:
 --- 
 
 ## Results  
-- **Logistic Regression** showed the best performance with high accuracy and ROC-AUC score.  
+- **Logistic Regression** showed the best performance with an accuracy of **~95%**.  
+- **Multinomial Naive Bayes** achieved ~93% accuracy.  
+- **Bernoulli Naive Bayes** achieved ~91% accuracy.  
 - Word clouds provided insight into commonly used words in both real and fake news.  
 - The model successfully distinguishes between fake and real news articles.
-
+  
 --- 
 
 ## Tools and Libraries  
